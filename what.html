@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>INTeamFox</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+      font-size: 200px
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+ <!-- Navbar -->
+ <div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+      href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="what.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">What is
+      Sharechat?</a>
+    <a href="how.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">How it help us?</a>
+    <a href="install.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">How to install Sharechat?</a>
+    <a href="chat.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chat</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="what.html" class="w3-bar-item w3-button w3-padding-large">What is Sharechat?</a>
+    <a href="how.html" class="w3-bar-item w3-button w3-padding-large">How it help us?</a>
+    <a href="install.html" class="w3-bar-item w3-button w3-padding-large">How to install Sharechat?</a>
+    <a href="chat.html" class="w3-bar-item w3-button w3-padding-large">Chat</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact us</a>
+  </div>
+</div>
+  <div style="padding-top: 69px;" class="w3-center">
+    <p>ShareChat is an Indian online media and interpersonal interaction administration, created by Bangalore-based Mohalla Tech Pvt Ltd. It was established by Ankush Sachdeva, Bhanu Pratap Singh and Farid Ahsan,[1] and consolidated on 8 January 2015. ShareChat has more than 180 million month to month dynamic users across 15 Indic dialects. The organization's application offers includes that incorporate private informing, labeling and an individual informing highlight, empowering clients to share recordings, jokes, tunes and other language based social substance with other obscure clients.
+    </p>
+  </div>
+
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+</body>
+
+</html>
